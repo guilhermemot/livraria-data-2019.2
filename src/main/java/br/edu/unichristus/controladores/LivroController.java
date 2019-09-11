@@ -14,7 +14,7 @@ import br.edu.unichristus.entidades.Livro;
 import br.edu.unichristus.repositorios.LivroRepository;
 
 @RestController
-@RequestMapping("/")
+@RequestMapping("/livros")
 public class LivroController {
 	@Autowired
 	private LivroRepository repoLivro;
